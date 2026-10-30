@@ -4660,6 +4660,12 @@
 		(uuid "a5c0d4c1-798b-433a-9986-ef0d6278705a")
 	)
 	(junction
+		(at 55.88 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab184e8-3a0a-43af-bb24-9c278f19ebf9")
+	)
+	(junction
 		(at 236.22 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4696,16 +4702,22 @@
 		(uuid "d5034356-8adb-4d01-add3-7dc3801c18c1")
 	)
 	(junction
-		(at 55.88 149.86)
+		(at 66.04 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df35aaf8-05bb-4018-ad24-fd7df64ac12a")
+		(uuid "db808180-e47c-4bc3-8722-faf14e4f0000")
 	)
 	(junction
 		(at 132.08 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e505a136-cdf2-43a3-acf5-2b316ddde3b9")
+	)
+	(junction
+		(at 55.88 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e632b3b3-0803-44b4-bc45-74f9ec9dc4d4")
 	)
 	(junction
 		(at 190.5 175.26)
@@ -5211,6 +5223,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 154.94) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c217d79-0ddd-45b6-a9ac-72828bca22fc")
+	)
+	(wire
+		(pts
 			(xy 54.61 38.1) (xy 73.66 38.1)
 		)
 		(stroke
@@ -5388,6 +5410,16 @@
 			(type default)
 		)
 		(uuid "8d6c6cda-2f0e-4155-a1e6-130fe9733eb2")
+	)
+	(wire
+		(pts
+			(xy 55.88 157.48) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfd55df-8c79-46b8-8357-fdad36dfafb3")
 	)
 	(wire
 		(pts
@@ -5628,6 +5660,16 @@
 			(type default)
 		)
 		(uuid "c1905acb-242b-48f8-b742-ff5187a66926")
+	)
+	(wire
+		(pts
+			(xy 55.88 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c196a085-0107-4493-96ad-5f2eeded7594")
 	)
 	(wire
 		(pts
@@ -6172,7 +6214,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 55.88 149.86 0)
+		(at 66.04 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6182,7 +6224,7 @@
 		(dnp no)
 		(uuid "05901d50-383f-4d9f-9d3d-bcc2520fda49")
 		(property "Reference" "#PWR06"
-			(at 55.88 153.67 0)
+			(at 66.04 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6235,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 59.436 148.59 0)
+			(at 69.596 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6203,7 +6245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 149.86 0)
+			(at 66.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6214,7 +6256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 149.86 0)
+			(at 66.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +6267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 55.88 149.86 0)
+			(at 66.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12pF"
 			(at 116.332 246.126 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,7 +7183,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 58.42 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
 			(at 55.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7462,7 +7504,7 @@
 		(dnp no)
 		(uuid "50a26f9a-ba7d-450f-aef4-87487c6f34f1")
 		(property "Reference" "Y1"
-			(at 144.272 241.3 90)
+			(at 147.828 240.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7472,8 +7514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40MHz +- 10ppm"
-			(at 144.272 243.3321 90)
+		(property "Value" "HCI 0132M4-40.000F10FTNN"
+			(at 147.828 242.0621 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8363,6 +8405,87 @@
 			(project "tinycraft"
 				(path "/d68ae6e2-3c29-4df4-84fb-847711267fbc"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70c3ea84-0d08-4901-815a-26c976506965")
+		(property "Reference" "C19"
+			(at 68.58 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.58 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 66.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd54c557-e693-45c1-a05b-fd3c344677cf")
+		)
+		(pin "2"
+			(uuid "09e094c8-22f7-4594-9e6f-c1c95ba06a2a")
+		)
+		(instances
+			(project "tinycraft"
+				(path "/d68ae6e2-3c29-4df4-84fb-847711267fbc"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9754,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "24nH"
 			(at 151.13 245.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9833,7 +9956,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12pF"
 			(at 116.586 254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11194,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Value" "510R"
+		(property "Value" "1K"
 			(at 69.85 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +11327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 69.85 33.02 0)
 			(hide yes)
 			(show_name no)
